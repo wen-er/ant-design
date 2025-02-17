@@ -9,27 +9,16 @@ const options = [
   {
     label: 'China',
     value: 'china',
-    emoji: '🇨🇳',
-    desc: 'China (中国)',
+    //emoji: '🇨🇳',
+    desc: 'China (企微消息)',
   },
   {
     label: 'USA',
     value: 'usa',
-    emoji: '🇺🇸',
-    desc: 'USA (美国)',
+    //emoji: '🇺🇸',
+    desc: 'USA (腾讯会议)',
   },
-  {
-    label: 'Japan',
-    value: 'japan',
-    emoji: '🇯🇵',
-    desc: 'Japan (日本)',
-  },
-  {
-    label: 'Korea',
-    value: 'korea',
-    emoji: '🇰🇷',
-    desc: 'Korea (韩国)',
-  },
+
 ];
 
 const App: React.FC = () => (
