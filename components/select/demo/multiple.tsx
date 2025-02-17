@@ -22,7 +22,7 @@ const App: React.FC = () => (
       allowClear
       style={{ width: '100%' }}
       placeholder="Please select"
-      defaultValue={['a10', 'c12']}
+      defaultValue={['企微消息', '腾讯会议']}
       onChange={handleChange}
       options={options}
     />
@@ -31,7 +31,7 @@ const App: React.FC = () => (
       disabled
       style={{ width: '100%' }}
       placeholder="Please select"
-      defaultValue={['a10', 'c12']}
+      defaultValue={['企微消息', '腾讯会议']}
       onChange={handleChange}
       options={options}
     />
